@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Uno</title>
+</head>
+
+<body>
+    <center>
+        <script src="ProyectoUno.js"></script>
+        <link rel="stylesheet" href="ProyectoUno.css">
+
+        <h1 class="Titulo">API Pokemon</h1>
+        <div class="InputSection">
+            <input type="text" placeholder="Ingresa el pokemon" id="nombrePokemon">
+            <input type="submit" onclick="getPokemon()">
+        </div>
+        <div class="PokemonCard">
+            <div class="Multimedia">
+                <div class="InfoTitle">
+                    <h3 id="name"></h3>
+                    <div id="num"></div>
+                </div>
+                <img id="imgPokemon" src="https://www.freeiconspng.com/thumbs/pokeball-png/free-pokeball-download-3.png"
+                    alt="pokemon" width="200px" height="200px">
+            </div>
+
+            <div class="InfoCard">
+                <div class="InfoType">
+                    <div id="type2"></div>
+                    <div id="type1"></div>
+                </div>
+                <div class="table">
+                    <div class="left">
+                        <div id="Hp">Hp:</div>
+                        <div id="Ataque">Ataque:</div>
+                        <div id="Defensa">Defensa:</div>
+                        <div id="Velocidad">Velocidad: </div>
+                    </div>
+                    <div class="right">
+                        <div id="valueHp"></div>
+                        <div id="valueAtaque"></div>
+                        <div id="valueDefensa"></div>
+                        <div id="valueVelocidad"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="Contacto">
+            <div class="Titulo">
+                <h3>Contactame</h3>
+            </div>
+            <input type="text" placeholder="Nombre" name="Nombre" id="nombre">
+            <input type="text" placeholder="Correo" name="Correo" id="correo">
+            <input type="submit" id="botonEviar">
+        </div>
+    </center>
+</body>
+<footer>
+    <p>Sherlyn Quetzal Lopez Hernandez A01</p>
+    <p>Utilice el api de pokemon para crear una "Pokedex" que mostrara la información de los diferentes pokemon con su nombre</p>
+</footer>
+</html>
